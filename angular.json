@@ -23,9 +23,23 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./own_style/css/responsive.css",
+              "./own_style/css/animate.min.css",
+              "./own_style/css/bootstrap-theme.css",
+              "./own_style/css/bootstrap-theme.min.css",
+              "./own_style/css/bootstrap.css",
+              "./own_style/css/bootstrap.min.css",
+              "./own_style/css/font-awesome.min.css",
+              "./own_style/css/font-awesome.css",
+              "./own_style/css/main.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./own_style/js/bootstrap.js",
+              "./own_style/js/bootstrap.min.js",
+              "./own_style/js/jquery.js",
+              "./own_style/js/main.js"              
+            ]
           },
           "configurations": {
             "production": {

@@ -1,0 +1,43 @@
+
+  <div class="=row"></div>
+  
+<section id="services" class="service-item">
+
+  <div class="container">
+         <div class="center wow fadeInDown">
+            
+             <br/>
+
+             <h2>Our Courses</h2>
+             <p class="lead">
+               
+          "Courses In Our institute"
+            </p>
+         </div>
+
+         <div class="row" >
+             <div class="col-sm-4" *ngFor="let book of book_data">
+                 <div class="media services-wrap wow fadeInDown">
+                    
+                     <div class="pull-left">
+                         <img class="img-responsive" src="/own_style/images/services/cou.png">
+                     </div>
+                     <div class="media-body">
+                          <font style="color: crimson darkslategray">
+                         <h2 class="media-heading"></h2>
+                    
+                          <p><u><b>Course Title:</b></u> {{book.cname}}</p> <br />
+                          <p><u><b>Trainer:</b></u> {{book.trainer}}</p> <br />
+                          <p><u><b>Cost:</b></u> {{book.cost}}</p> <br />
+                          <p><u><b>Hours Num:</b></u> {{book.hours_num}}</p> <br />
+                          <p><u><b>Course Type:</b></u> {{book.course_type}}</p> <br />
+                          <p><u><b>Start Date:</b></u> {{book.start_date}}</p> <br />
+                          <p><u><b>End Date:</b></u> {{book.end_date}}</p> <br />
+                    </font>
+                              </div>
+                 </div>
+             </div>                                 
+         </div><!--/.row-->
+     </div><!--/.container-->
+ </section><!--/#services-->
+
